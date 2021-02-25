@@ -1,0 +1,51 @@
+<!DOCTYPE html><!--se declara el documento html-->
+<html lang="es">
+	<head>
+		<title>  </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/estiloruleta.css" type="text/css"/> <!-- se vincula con su correspondiente documento css -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+		<script src="js/estiloruleta.js"></script><!-- se abren las librerias de p5.javascript y se vincula con su docuemtno js -->
+		<link rel="icon" type="image/jpg"  href="imagenes/favicon.jpg"><!-- Se pone el favicon de la página -->
+	</head>
+	<body onload="inicio()"><!-- se carga la funcion inicio() definida en el documento js -->
+		<h1> ¡Animate a probar suerte! </h1>
+		<button id="boton" onclick="empezarJuego(), ponerAudio()" ondblclick="pararJuego()"></button>
+		<!-- se crea un boton que ejecute empezarJuego() y ponerAudio() al ser presionado, y pararJuego() al hacer doble click -->
+		<span>Tu premio es...</span>
+		<span id="premio"></span>
+		<table id=tablaPremios border="2">
+			<tr class=titulo>
+				<td colspan="2"> Tabla de premios </td>
+			</tr>
+			<tr class=titulo>
+				<td> Color </td>
+				<td> Premio </td>
+			</tr>
+			<tr id=verde>
+				<td></td>
+				<td> Un coche </td>
+			</tr>
+			<tr id=rojo>
+				<td></td>
+				<td> Un ordenador </td>
+			</tr>
+			<tr id=azul>
+				<td></td>
+				<td> Un viaje a Mongolia </td>
+			</tr>
+			<tr id=amarillo>
+				<td></td>
+				<td> Un calendario </td>
+			</tr>
+			<tr id=rosa>
+				<td></td>
+				<td> Una alfombra </td>
+			</tr>
+			<tr id=naranja>
+				<td></td>
+				<td> Un bolígrafo </td>
+			</tr>
+		</table>
+	</body>
+</html>
