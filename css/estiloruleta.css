@@ -1,0 +1,48 @@
+body{/*se le pone color al fondo*/
+	background-color: #33ff60;
+}
+h1{
+	text-align: center;
+}
+iframe{display:none;}
+#tablaPremios{
+	position: relative;
+	bottom: 170px;
+	left: 120px;
+}
+.titulo{
+	text-align: center;
+	background-color: white;
+}
+#verde{
+	background-color: green;
+}
+#rojo{
+	background-color: red;
+}
+#azul{
+	background-color: blue;
+}
+#amarillo{
+	background-color: yellow;
+}
+#rosa{
+	background-color: pink;
+}
+#naranja{
+	background-color: orange;
+}
+canvas{
+	position: relative;
+	bottom: 170px;
+	left: -5px;
+}
+#boton{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	height: 100px;
+	width: 500px;
+	left: 425px;
+	top: 410px;
+}
