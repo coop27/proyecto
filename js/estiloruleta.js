@@ -25,7 +25,7 @@ class Audio{
 }
 
 function inicio(){
-	boton1 = new Boton("A jugar!");
+	boton1 = new Boton("¡A jugar!");
 	boton1.rellenar();
 	boton2 = new Boton("Doble click para parar");
 	boton3 = new Boton("Click para jugar de nuevo");
